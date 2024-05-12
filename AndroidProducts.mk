@@ -17,3 +17,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flounder.mk \
     $(LOCAL_DIR)/lineage_flounder.mk
+
+COMMON_LUNCH_CHOICES :=  \
+    lineage_flounder-ap1a-userdebug \
+    lineage_flounder-ap1a-user \
+    lineage_flounder-ap1a-eng
